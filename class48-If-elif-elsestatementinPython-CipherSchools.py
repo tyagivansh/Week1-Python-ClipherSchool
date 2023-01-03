@@ -10,7 +10,7 @@ age = input("please input your age : ")
 age = int(age)
 
 if age==0 or age<0:
-    print("you can't watch")
+    print("you are underage to watch this movie")
 elif 0<age<=3:
     print("Ticket price : Free")
 elif 3<age<=10:
